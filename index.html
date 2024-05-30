@@ -10,8 +10,8 @@
     <body>
         <!-- Conteneur des boutons -->
         <div class="h-10 w-60 flex justify-center">
-            <button class="border-2 m-1 px-3">Précédent</button><button
-                    class="border-2 m-1 px-3">Suivant</button>
+            <button onclick="next()"
+                    class="next border-2 m-1 px-3">Suivant</button>
         </div>
         <div>
             <!-- Conteneur du carousel -->
@@ -21,9 +21,11 @@
                     <!-- Conteneur des diapos -->
                     <div>
                         <!-- Diapos -->
-                        <div class="absolute size-60 bg-red-700 bg-cover"></div>
                         <div
-                             class="hidden absolute size-60 bg-amber-500 bg-cover">
+                             class="mySlides absolute size-60 bg-red-700 bg-cover">
+                        </div>
+                        <div
+                             class="mySlides absolute size-60 bg-amber-500 bg-cover">
                         </div>
                     </div>
                 </div>
