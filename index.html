@@ -8,8 +8,9 @@
     </head>
     <body>
         <!-- Conteneur des boutons -->
-        <div>
-            <button>Précédent</button><button>Suivant</button>
+        <div class="h-10 w-60 flex justify-center">
+            <button class="border-2 m-1 px-3">Précédent</button><button
+                    class="border-2 m-1 px-3">Suivant</button>
         </div>
         <div>
             <!-- Conteneur du carousel -->
@@ -19,8 +20,10 @@
                     <!-- Conteneur des diapos -->
                     <div>
                         <!-- Diapos -->
-                        <div></div>
-                        <div></div>
+                        <div class="absolute size-60 bg-red-700 bg-cover"></div>
+                        <div
+                             class="hidden absolute size-60 bg-amber-500 bg-cover">
+                        </div>
                     </div>
                 </div>
             </div>
