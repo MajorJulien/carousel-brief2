@@ -10,12 +10,21 @@
     <body>
         <h1 class="text-4xl mb-5">Liste de courses</h1>
         <div><input class="border-2" type="text" id="fname" name="fname"
-                   value="Ajouter des éléments"><button onclick="add()"
+                   value="Ajouter des éléments"><button onclick="addItem()"
                     class="next border-2 m-1 px-3">Ajouter</button></div>
-        <div id="container" class="ml-5">
-            <ul>
+        <div class="ml-5">
+            <ul id="container">
                 <li></li>
             </ul>
         </div>
+        <script>
+            const contenair = document.getElementById('conteneur');
+
+            const list = document.createElement('li');
+
+            paragraphe.textContent = '';
+
+            conteneur.appendChild(paragraphe);
+        </script>
     </body>
 </html>
